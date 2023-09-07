@@ -158,7 +158,7 @@ jobs:
       run: |
         echo "BUILD_DATE=$(date +%Y%m%d)" >> $GITHUB_ENV
       
-    - name: Upload to Release (boot and becovery)
+    - name: Upload to Release (boot and recovery)
       if: github.event.inputs.BUILD_TARGET == 'boot' || github.event.inputs.BUILD_TARGET == 'recovery'
       uses: softprops/action-gh-release@v1
       with:
