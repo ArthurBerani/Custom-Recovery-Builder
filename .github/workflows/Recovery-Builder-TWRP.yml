@@ -15,7 +15,7 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree' # Your already made Device Tree for TWRP
         required: true
-        default: 'https://github.com/twrpdtgen/android_device_infinix_Infinix-X666B'
+        default: 'https://github.com/Miichon/device_infinix_X666B'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' # Your Device Tree Branch, make sure it's right.
         required: true
